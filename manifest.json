@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "PlayRateChanger",
+    "version": "1.0.0",
+
+    "description": "Uma extensão pra acelerar reprodução de audio no whatsapp web.",
+
+    
+    "author": "Rico Lima",
+    "icons": {"64": "img/reprod_64.png"},
+    "content_scripts": [
+        {
+            "matches": [
+                "https://web.whatsapp.com/"
+            ],
+            "css": [
+                "style.css"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}

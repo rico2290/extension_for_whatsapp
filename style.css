@@ -1,0 +1,14 @@
+.twoTimeSpeedButton {
+    color: gray;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 8px 10px;
+    font-size: 1rem;
+    border: none;
+    font-weight: 500;
+}
+
+/* .twoTimeSpeedButton:focus {
+    background-color: #06D755;
+} */
+
